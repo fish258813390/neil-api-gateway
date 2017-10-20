@@ -1,6 +1,6 @@
 package neil.api.gateway.utils;
 
-import com.yolly.commons.exception.BusinessException;
+import com.neil.commons.exception.BusinessException;
 import org.apache.commons.beanutils.PropertyUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

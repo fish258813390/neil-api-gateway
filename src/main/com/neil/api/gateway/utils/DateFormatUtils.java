@@ -1,6 +1,6 @@
 package neil.api.gateway.utils;
 
-import com.yolly.commons.exception.BusinessException;
+import com.neil.commons.exception.BusinessException;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
