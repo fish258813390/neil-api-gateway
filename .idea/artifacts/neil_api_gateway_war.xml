@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="neil-api-gateway:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="neil-api-gateway.war">
+      <element id="artifact" artifact-name="neil-api-gateway:war exploded" />
+    </root>
+  </artifact>
+</component>
