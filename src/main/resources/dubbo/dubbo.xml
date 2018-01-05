@@ -6,7 +6,7 @@
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <dubbo:application name="neil-api-gateway" owner="neilyu" organization="neil"/>
-    <dubbo:registry protocol="zookeeper" address="${zoo.config.server}" file="./dubbo-subscribe.cache"/>
+    <dubbo:registry protocol="zookeeper" address="${zoo.server}" file="./dubbo-subscribe.cache"/>
     <import resource="classpath:/dubbo/consumer/*/*.xml"/>
     <import resource="classpath:/dubbo/consumer/*/*/*.xml"/>
     <!-- 关闭所有服务的启动时检查 (没有提供者时报错) -->

@@ -29,7 +29,7 @@
 	<import resource="applicationContext-zookeeper.xml" />
 	<!--<import resource="applicationContext-jms.xml"/> -->
 	<import resource="applicationContext-aop.xml" />
-	<!--<import resource="dubbo/dubbo.xml" />-->
+	<import resource="dubbo/dubbo.xml" />
 
 
 	<!-- 文件上传配置 -->

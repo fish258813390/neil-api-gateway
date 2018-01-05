@@ -3,7 +3,10 @@
          xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          id="WebApp_ID" version="3.0">
-    <display-name>neil-api-gateway</display-name>
+    <display-name>api</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
@@ -51,11 +54,6 @@
         <error-code>403</error-code>
         <location>/WEB-INF/error/403.html</location>
     </error-page>
-    <welcome-file-list>
-        <welcome-file>/index.htm</welcome-file>
-        <welcome-file>/login.html</welcome-file>
-        <welcome-file>/index.jsp</welcome-file>
-        <welcome-file>/login.html</welcome-file>
-        <welcome-file>/login.jsp</welcome-file>
-    </welcome-file-list>
+
+
 </web-app>

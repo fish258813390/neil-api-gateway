@@ -87,7 +87,7 @@
 
     <!--<aop:config>-->
         <!--<aop:pointcut id="appControllerMethod"-->
-                      <!--expression="execution(public * com.neil.api.gateway.app.*.*.*(..)) and !execution(* com.neil.api.gateway.app.entry.EntryController.*(..)) and !execution(* com.neil.api.gateway.app.extended.UploadFileController.*(..))"/>-->
+                      <!--expression="execution(public * com.com.neil.api.gateway.app.*.*.*(..)) and !execution(* com.com.neil.api.gateway.app.entry.EntryController.*(..)) and !execution(* com.com.neil.api.gateway.app.extended.UploadFileController.*(..))"/>-->
         <!--<aop:advisor pointcut-ref="appControllerMethod" advice-ref="appControllerMethodInterceptor"-->
                      <!--order="0"/>-->
     <!--</aop:config>-->
